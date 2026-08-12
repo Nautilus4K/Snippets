@@ -3,3 +3,5 @@ Small little code snippets I did while learning to solve some competitive progra
 
 **Currently this includes:**
 - ClueOJ
+- LQDOJ
+- VNOJ
