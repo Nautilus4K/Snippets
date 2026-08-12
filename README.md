@@ -5,3 +5,4 @@ Small little code snippets I did while learning to solve some competitive progra
 - ClueOJ
 - LQDOJ
 - VNOJ
+- Codes from my own school.
