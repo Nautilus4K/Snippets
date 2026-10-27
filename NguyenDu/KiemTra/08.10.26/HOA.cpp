@@ -14,6 +14,7 @@ void solve() {
 	// int l1 = 1;
 	for (int ie = 0; ie < n - 1; ie++) {
 		while (a[ie] - a[is] > k) is++;
+		// is = lower_bound(a + is, a + ie, a[ie] - k) - a;
 
 		int l1 = ie - is + 1;
 
@@ -22,6 +23,7 @@ void solve() {
 		int l2 = 1;
 		for (int je = ie + 1; je < n; je++) {
 			while (a[je] - a[js] > k) js++;
+			// is = lower_bound(a + js, a + je, a[je] - k) - a;
 
 			l2 = max(l2, je - js + 1);
 		}
